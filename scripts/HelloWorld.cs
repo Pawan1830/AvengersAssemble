@@ -4,13 +4,15 @@
 // TUTORIAL LINK: [Tut for C#](https://www.codeproject.com)
 
 using System;
-
-public class HelloWorld
+public class HelloMnnit
 { 
-  public static void Main()
+  public HelloMnnit()
   {
-    Console.WriteLine("HELLO MNNII!");
+    Console.WriteLine("Hello MNNIT!");
   }
-} 
 
-3
+  public static void Main() 
+  {
+    HelloWorld hw = new HelloMnnit(); 
+  }
+}
